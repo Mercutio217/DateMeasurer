@@ -5,7 +5,10 @@ namespace DateMeasureTest
     [TestFixture]
     public class DatePatternTests
     {
-        [Test]
-        public void TestIfComparatorWorksProperly()
+//        [Test]
+//        public void TestIfComparatorWorksProperly()
+//        {
+//            throw new Not
+//        }
     }
 }
