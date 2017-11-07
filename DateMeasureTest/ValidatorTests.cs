@@ -15,6 +15,13 @@ namespace DateMeasureTest
             Assert.True(_testValidator.Validate());
 
         }
+
+        [Test]
+        public void TestIfValidatorChecksYMDValidDate()
+        {
+            _testValidator = new Validator("2002/07/07");
+            Assert.True(_testValidator.Validate());
+        }
         
         [Test]
         public void TestIfValidatorChecksInValidDate()
