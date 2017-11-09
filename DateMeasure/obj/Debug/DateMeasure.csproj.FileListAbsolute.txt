@@ -1,0 +1,7 @@
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\bin\Debug\DateMeasure.exe
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\bin\Debug\DateMeasure.pdb
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\bin\Debug\VisualStudioGitIgnore.dll
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\obj\Debug\DateMeasure.csprojResolveAssemblyReference.cache
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\obj\Debug\DateMeasure.csproj.CoreCompileInputs.cache
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\obj\Debug\DateMeasure.exe
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasure\obj\Debug\DateMeasure.pdb

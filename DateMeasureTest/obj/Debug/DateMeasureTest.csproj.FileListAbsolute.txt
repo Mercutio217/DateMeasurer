@@ -1,0 +1,10 @@
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\DateMeasureTest.dll
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\DateMeasureTest.pdb
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\DateMeasure.exe
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\nunit.framework.dll
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\DateMeasure.pdb
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\bin\Debug\nunit.framework.xml
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\obj\Debug\DateMeasureTest.csprojResolveAssemblyReference.cache
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\obj\Debug\DateMeasureTest.csproj.CoreCompileInputs.cache
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\obj\Debug\DateMeasureTest.dll
+C:\Users\janusz\RiderProjects\DateMeasure\DateMeasureTest\obj\Debug\DateMeasureTest.pdb

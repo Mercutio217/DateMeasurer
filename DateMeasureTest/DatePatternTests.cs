@@ -34,8 +34,8 @@ namespace DateMeasureTest
         [Test]
         public void TestIfComparatorWorksProperlyWithSameMonthAndDayButDifferenTYear()
         {
-            _testPattern = new DatePattern(_sign1, sign2);
-            Assert.AreEqual("12.01 - 12.02.2001", _testPattern.GetRange());
+            _testPattern = new DatePattern(_sign1, _sign2);
+            Assert.AreEqual("12.01 - 13.04.2001", _testPattern.GetRange());
         }
 
         [Test]
