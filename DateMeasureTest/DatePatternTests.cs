@@ -7,13 +7,12 @@ namespace DateMeasureTest
     public class DatePatternTests
     {
         private DatePattern _testPattern;
-        static DateSign sign1 = new DateSign("12.01.2001");
-        static DateSign sign2 = new DateSign("12.02.2001");
-        static DateSign sign3 = new DateSign("13.04.2001");
-        static DateSign sign4 = new DateSign("13.04.2010");
-        static DateSign sign5 = new DateSign("20.01.1983");
-        static DateSign sign6 = new DateSign("30.02.2001");
-        private DateSign[] _testDateSignArray = new DateSign[] {sign1, sign2, sign3, sign4, sign5, sign6};
+        static DateSign _sign1 = new DateSign("12.01.2001");
+        static DateSign _sign2 = new DateSign("13.04.2001");
+        static DateSign _sign3 = new DateSign("13.04.2010");
+        static DateSign _sign4 = new DateSign("14.01.2001");
+
+        private readonly DateSign[] _testDateSignArray = new DateSign[] {_sign1, _sign2, _sign3, _sign4};
 
         [SetUp]
         public void InitializeDateSigns()
@@ -22,15 +21,28 @@ namespace DateMeasureTest
             {
                 sign.SetConvertedDate();
                 sign.SetSeparator();
-
             }
         }
-        
-        [Test]
-        public void TestIfComparatorWorksProperly()
-        {
 
-            _testPattern = new DatePattern();
+        [Test]
+        public void TestIfComparatorWorksProperlyWithSameYear()
+        {
+            _testPattern = new DatePattern(_sign1, _sign4);
+            Assert.AreEqual("12 - 14.01.2001", _testPattern.GetRange());
+        }
+
+        [Test]
+        public void TestIfComparatorWorksProperlyWithSameMonthAndDayButDifferenTYear()
+        {
+            _testPattern = new DatePattern(_sign1, sign2);
+            Assert.AreEqual("12.01 - 12.02.2001", _testPattern.GetRange());
+        }
+
+        [Test]
+        public void TestIfComparatorWorksProperlyWithSameMonth()
+        {
+            _testPattern = new DatePattern(_sign2, _sign3);
+            Assert.AreEqual("13.04.2001 - 13.04.2010", _testPattern.GetRange());
         }
     }
 }
